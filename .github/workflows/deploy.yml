@@ -8,7 +8,7 @@ on:
       - main
     paths:
       # Workflow file itself
-      - '.github/workflows/dockerhub.yml'
+      - '.github/workflows/deploy.yml'
       # Dockerfile
       - 'Dockerfile'
   workflow_dispatch:
