@@ -15,6 +15,7 @@ on:
 
 permissions:
   packages: write
+  contents: read
 
 jobs:
   push_to_registry:
