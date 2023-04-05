@@ -14,7 +14,5 @@ RUN apk add --no-cache \
     compiler-rt \
     make \
     cmake \
-    ninja
-
-# Clear cache
-RUN rm -rf "/var/cache/apk/*"
+    ninja \
+    && rm -rf "/var/cache/apk/*" # Clear cache
