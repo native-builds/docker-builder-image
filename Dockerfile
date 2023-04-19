@@ -15,5 +15,5 @@ RUN apk add --no-cache \
     make \
     cmake \
     ninja \
-    bast \
+    bash \
     && rm -rf "/var/cache/apk/*" # Clear cache
