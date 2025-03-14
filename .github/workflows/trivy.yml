@@ -31,7 +31,7 @@ jobs:
           docker build -t "nativebuilds/builder-image:latest" .
 
       - name: Run Trivy vulnerability scanner
-        uses: aquasecurity/trivy-action@0.29.0
+        uses: aquasecurity/trivy-action@0.30.0
         with:
           image-ref: 'nativebuilds/builder-image:latest'
           format: 'template'
